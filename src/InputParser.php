@@ -12,15 +12,16 @@ class InputParser
 	 */
 	const CASES = 100;
 	/**
-	 *
+	 * @var string $path
 	 */
 	private string $path;
 	/**
-	 *
+	 * @var \SplFixedArray $cases
 	 */
 	private \SplFixedArray $cases;
 	/**
-	 *
+	 * @param string $filePath
+	 * @return void
 	 */
 	public function __construct(string $filePath)
 	{

@@ -100,6 +100,7 @@ class Direction
 	}
 	/**
 	 * @magic
+	 * @param string $name name of property
 	 * give access to private props (this trick to make props immutable)
 	 */
 	public function __get($name)
@@ -122,7 +123,10 @@ class Direction
         $this->y+=$this->dist * sin(deg2rad($this->angle));
 	}
 	/**
-	 *
+	 * @todo add description
+	 * @param float $x
+	 * @param float $y
+	 * @return float 
 	 */
 	private function estimateHypotenuse(float $x, float $y): float
 	{
