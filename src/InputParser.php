@@ -2,6 +2,7 @@
 declare(strict_types=1);
 /**
  * PHP 7.4+ required
+ * test for checking contribution counting
  */
 namespace allDifferentDirections;
 
